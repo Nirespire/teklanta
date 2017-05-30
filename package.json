@@ -1,0 +1,14 @@
+{
+  "name": "Teklanta",
+  "version": "1.0.0",
+  "description": "Website for Teklanta",
+  "main": "index.js",
+  "author": "Nirespire",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "scripts":{
+    "start": "node index.js"
+  }
+}
