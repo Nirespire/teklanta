@@ -1,12 +1,8 @@
-const express = require('express')
-const app = express()
-
-app.set('port', (process.env.PORT || 3000));
-
-app.get('/', function (req, res) {
-  res.send('Hello World!')
-})
-
-app.listen(app.get('port'), function () {
-  console.log('Example app listening on port 3000!')
-})
+var express = require('express');
+var path = require('path');
+var serveStatic = require('serve-static');
+app = express();
+app.use(serveStatic("dist"));
+var port = process.env.PORT || 3000;
+app.listen(port);
+console.log('server started '+ port);
