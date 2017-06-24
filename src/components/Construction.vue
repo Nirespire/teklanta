@@ -2,7 +2,7 @@
   <div class="construction">
     <h2>Coming Soon</h2>
     <p>
-        A podcast highlighting the technology and innovation happenning in the greater Atlanta area.
+        A podcast highlighting the technology and innovation happening in the greater Atlanta area.
     </p>
     <ul>
       <li><i class="fa fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/teklanta" target="_blank">@Teklanta</a></li>
