@@ -1,19 +1,24 @@
 <template>
   <div id="app">
     <img class="logo" src="./assets/logo2.png">
-    <router-view></router-view>
+    <Construction/>
   </div>
 </template>
 
 <script>
+import Construction from './components/Construction.vue'
+
 export default {
-  name: 'app'
+  name: 'App',
+  components: {
+    Construction
+  }
 }
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

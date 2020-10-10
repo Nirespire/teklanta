@@ -22,7 +22,7 @@ export default {
     }
   },
   methods: {
-    openForm: (event) => {
+    openForm: () => {
       console.log('Navigating to application form')
       window.open('https://goo.gl/forms/0vBIl1aehO5wFOjP2')
     }
